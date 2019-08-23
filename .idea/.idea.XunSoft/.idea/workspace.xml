@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe80537-e864-440b-b99d-86f5538103b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/XunSoft.sln" beforeDir="false" afterPath="$PROJECT_DIR$/XunSoft.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Enum/SnakeCaseState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Utilities/CollectionUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Utilities/CollectionWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Utilities/ReflectionUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Utilities/StringUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Utilities/TypeExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XunSoft.Json/Utilities/ValidationUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XunSoft/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XunSoft/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XunSoft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XunSoft/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XunSoft.Json/XunSoft.Json.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/XunSoft.Json/XunSoft.Json.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XunSoft.Json/obj/Debug/XunSoft.Json.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XunSoft.Json/obj/Debug/XunSoft.Json.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +21,100 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XunSoft.Json/Enum/SnakeCaseState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1564024996031" expanded="true" signature="27:137" ph="{...}" />
+                <marker date="1564024996031" expanded="true" signature="62:135" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XunSoft.Json/Utilities/CollectionUtils.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+              <folding>
+                <marker date="1564447582247" expanded="true" signature="6:117" ph="..." />
+                <marker date="1564447582247" expanded="true" signature="151:8293" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="158:203" ph="/// 集合工具 ... " />
+                <marker date="1564447582247" expanded="true" signature="245:8291" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="260:448" ph="/// 判断集合是否为null或内容为空 ... " />
+                <marker date="1564447582247" expanded="true" signature="519:675" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="565:639" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="685:949" ph="/// 将指定泛型集合的元素添加到指定的泛型集合 ... " />
+                <marker date="1564447582247" expanded="true" signature="1038:1381" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="1081:1171" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="1208:1260" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="1307:1371" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="1391:1525" ph="/// 判断当前类型是否键/值集合 ... " />
+                <marker date="1564447582247" expanded="true" signature="1580:1813" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="1823:2029" ph="/// 解析可枚举集合构造函数 ... " />
+                <marker date="1564447582247" expanded="true" signature="2164:2422" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="2432:2705" ph="/// 解析可枚举集合构造函数 ... " />
+                <marker date="1564447582247" expanded="true" signature="2870:3926" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="3164:3889" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="3300:3875" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="3448:3568" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="3608:3686" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="3768:3857" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="3936:4155" ph="/// 给泛型集合添加不重复成员 ... " />
+                <marker date="1564447582247" expanded="true" signature="4226:4319" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="4329:4590" ph="/// 给集合添加不重复成员 ... " />
+                <marker date="1564447582247" expanded="true" signature="4692:4877" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="4755:4813" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="4895:5162" ph="/// 给泛型集合添加不重复的成员集合 ... " />
+                <marker date="1564447582247" expanded="true" signature="5283:5563" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="5366:5524" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="5436:5510" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="5573:5912" ph="/// 判断可枚举泛型集合中是否包含某个元素 ... " />
+                <marker date="1564447582247" expanded="true" signature="6061:6402" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="6104:6194" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="6228:6318" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="6420:6648" ph="/// 返回成员在集合中的索引 ... " />
+                <marker date="1564447582247" expanded="true" signature="6742:7022" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="6823:6985" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="6875:6945" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="7031:7299" ph="/// 判断泛型集合是否包含value成员 ... " />
+                <marker date="1564447582247" expanded="true" signature="7401:7482" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="7556:7794" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="7615:7761" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="7681:7747" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="7803:7941" ph="/// 快速翻转 ... " />
+                <marker date="1564447582247" expanded="true" signature="8002:8276" ph="{...}" />
+                <marker date="1564447582247" expanded="true" signature="8095:8266" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/ndp/clr/src/BCL/system/reflection/ConstructorInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XunSoft.Json/Enum/SnakeCaseState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XunSoft.Json/Utilities/CollectionUtils.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/XunSoft.Json/Class1.cs" />
+        <option value="$PROJECT_DIR$/XunSoft.Json/Utilities/CollectionUtils.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1923" />
-    <option name="y" value="21" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -35,8 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -44,16 +131,13 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="XunSoft" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="XunSoft" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="XunSoft.Json" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -62,7 +146,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,12 +170,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564023443234</updated>
-      <workItem from="1564023450501" duration="834000" />
+      <workItem from="1564023450501" duration="2038000" />
+      <workItem from="1564447416600" duration="1203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="834000" />
+    <option name="totallyTimeSpent" value="3241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -103,19 +188,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13905168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -123,18 +200,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.32946146" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -147,10 +233,79 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/XunSoft.Json/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/XunSoft.Json/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/XunSoft.Json/Enum/SnakeCaseState.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1564024996031" expanded="true" signature="27:137" ph="{...}" />
+            <marker date="1564024996031" expanded="true" signature="62:135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/ndp/clr/src/BCL/system/reflection/ConstructorInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XunSoft.Json/Utilities/CollectionUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <marker date="1564447582247" expanded="true" signature="6:117" ph="..." />
+            <marker date="1564447582247" expanded="true" signature="151:8293" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="158:203" ph="/// 集合工具 ... " />
+            <marker date="1564447582247" expanded="true" signature="245:8291" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="260:448" ph="/// 判断集合是否为null或内容为空 ... " />
+            <marker date="1564447582247" expanded="true" signature="519:675" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="565:639" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="685:949" ph="/// 将指定泛型集合的元素添加到指定的泛型集合 ... " />
+            <marker date="1564447582247" expanded="true" signature="1038:1381" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="1081:1171" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="1208:1260" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="1307:1371" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="1391:1525" ph="/// 判断当前类型是否键/值集合 ... " />
+            <marker date="1564447582247" expanded="true" signature="1580:1813" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="1823:2029" ph="/// 解析可枚举集合构造函数 ... " />
+            <marker date="1564447582247" expanded="true" signature="2164:2422" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="2432:2705" ph="/// 解析可枚举集合构造函数 ... " />
+            <marker date="1564447582247" expanded="true" signature="2870:3926" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="3164:3889" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="3300:3875" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="3448:3568" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="3608:3686" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="3768:3857" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="3936:4155" ph="/// 给泛型集合添加不重复成员 ... " />
+            <marker date="1564447582247" expanded="true" signature="4226:4319" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="4329:4590" ph="/// 给集合添加不重复成员 ... " />
+            <marker date="1564447582247" expanded="true" signature="4692:4877" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="4755:4813" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="4895:5162" ph="/// 给泛型集合添加不重复的成员集合 ... " />
+            <marker date="1564447582247" expanded="true" signature="5283:5563" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="5366:5524" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="5436:5510" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="5573:5912" ph="/// 判断可枚举泛型集合中是否包含某个元素 ... " />
+            <marker date="1564447582247" expanded="true" signature="6061:6402" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="6104:6194" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="6228:6318" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="6420:6648" ph="/// 返回成员在集合中的索引 ... " />
+            <marker date="1564447582247" expanded="true" signature="6742:7022" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="6823:6985" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="6875:6945" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="7031:7299" ph="/// 判断泛型集合是否包含value成员 ... " />
+            <marker date="1564447582247" expanded="true" signature="7401:7482" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="7556:7794" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="7615:7761" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="7681:7747" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="7803:7941" ph="/// 快速翻转 ... " />
+            <marker date="1564447582247" expanded="true" signature="8002:8276" ph="{...}" />
+            <marker date="1564447582247" expanded="true" signature="8095:8266" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

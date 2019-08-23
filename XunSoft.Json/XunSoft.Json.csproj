@@ -9,7 +9,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>XunSoft.Json</RootNamespace>
         <AssemblyName>XunSoft.Json</AssemblyName>
-        <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,14 +38,19 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Enum\SnakeCaseState.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Utilities\CollectionUtils.cs" />
+        <Compile Include="Utilities\CollectionWrapper.cs" />
+        <Compile Include="Utilities\ReflectionUtils.cs" />
+        <Compile Include="Utilities\StringUtils.cs" />
+        <Compile Include="Utilities\TypeExtensions.cs" />
+        <Compile Include="Utilities\ValidationUtils.cs" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Converters" />
       <Folder Include="Deserialization" />
-      <Folder Include="Enum" />
       <Folder Include="Serialization" />
-      <Folder Include="Utilities" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
